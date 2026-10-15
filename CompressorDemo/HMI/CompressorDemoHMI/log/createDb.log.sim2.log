@@ -1,0 +1,25 @@
+WCCILsim     (2), 2026.10.12 12:40:55.191, SYS,  INFO,        1, Manager Start, PROJ, CompressorDemoHMI, V 3.21 - 3.21.6 platform Windows AMD64 linked at Sep 29 2026 21:29:48 (a2932d3f879907fd6494d322f20375eb1a80f6b4)
+WCCILsim     (2), 2026.10.12 12:40:55.385, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (2), 2026.10.12 12:40:55.400, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ alexhp (::1)
+WCCILsim     (2), 2026.10.12 12:40:55.416, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_2._address:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.416, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_2._cmd_conv:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.416, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_2._msg_conv:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.416, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_driver_2._smooth:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.416, PARAM,SEVERE,     71, DP does not exist, _Stat_Connections_Refresh.SecsToRefresh:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.417, PARAM,SEVERE,     71, DP does not exist, _Stat_Configs_Refresh.SecsToRefresh:_original.._value
+WCCILsim     (2), 2026.10.12 12:40:55.417, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (2), 2026.10.12 12:40:55.417, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (2), 2026.10.12 12:40:55.430, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ alexhp (::1)
+WCCILsim     (2), 2026.10.12 12:40:55.596, IMPL, SEVERE,     54, Unexpected state, Failure getting type id for MSA connection '_MSA_driver_2_managerdiagnostic'
+WCCILsim     (2), 2026.10.12 12:40:55.596, IMPL, SEVERE,     54, Unexpected state, Failure ensuring existence of MSA connection '_MSA_driver_2_managerdiagnostic'
+WCCILsim     (2), 2026.10.12 12:40:55.596, SYS,  SEVERE,     54, Unexpected state, Not all services started
+WCCILsim     (2), 2026.10.12 12:40:55.596, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 7200 seconds
+WCCILsim     (2), 2026.10.12 12:40:55.597, SYS,  INFO,      156, Driver initialization finished.
+WCCILsim     (2), 2026.10.12 12:40:55.609, PARAM,WARNING,    90, DP attribute was connected twice, DP: (Type: 0 Sys: 1 Dp: 0 El: 0 : ..)
+WCCILsim     (2), 2026.10.12 12:40:55.609, PARAM,WARNING,    54, Unexpected state, AlertDrvIntDp, dpReady, dpConnect failed to Ack DPs
+WCCILsim     (2), 2026.10.12 12:41:06.456, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (2), 2026.10.12 12:41:06.466, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (2), 2026.10.12 12:41:06.466, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (2), 2026.10.12 12:41:06.466, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (2), 2026.10.12 12:41:06.466, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (2), 2026.10.12 12:41:06.472, SYS,  INFO,        2, Manager Stop

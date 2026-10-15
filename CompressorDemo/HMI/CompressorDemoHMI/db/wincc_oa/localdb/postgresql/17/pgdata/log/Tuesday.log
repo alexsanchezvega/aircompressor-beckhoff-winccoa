@@ -1,0 +1,247 @@
+2026-10-13 09:50:01.889 CEST [15772] LOG:  PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit startet
+2026-10-13 09:50:01.895 CEST [15772] LOG:  erwarte Verbindungen auf IPv6-Adresse »::«, Port 15432
+2026-10-13 09:50:01.895 CEST [15772] LOG:  erwarte Verbindungen auf IPv4-Adresse »0.0.0.0«, Port 15432
+2026-10-13 09:50:01.928 CEST [15772] LOG:  erwarte Verbindungen auf Unix-Socket »C:/Users/boss/AppData/Local/.winccoa/.s.PGSQL.15432«
+2026-10-13 09:50:02.116 CEST [20544] LOG:  Datenbanksystem wurde am 2026-10-13 09:45:09 CEST heruntergefahren
+2026-10-13 09:50:02.195 CEST [15772] LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2026-10-13 09:55:02.111 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 09:55:18.551 CEST [16560] LOG:  Checkpoint komplett: 160 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=16,011 s, Sync=0,382 s, gesamt=16,445 s; sync. Dateien=78, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=1733 kB, Schätzung=1733 kB; LSN=0/3305720, Redo-LSN=0/32FFC68
+2026-10-13 10:00:02.558 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:00:11.134 CEST [16560] LOG:  Checkpoint komplett: 83 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=8,313 s, Sync=0,211 s, gesamt=8,576 s; sync. Dateien=44, längste=0,009 s, Durchschnitt=0.005 s; Entfernung=475 kB, Schätzung=1607 kB; LSN=0/337E868, Redo-LSN=0/33769B8
+2026-10-13 10:05:02.190 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:05:09.413 CEST [16560] LOG:  Checkpoint komplett: 44 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,845 s, Sync=0,116 s, gesamt=7,224 s; sync. Dateien=20, längste=0,023 s, Durchschnitt=0.006 s; Entfernung=303 kB, Schätzung=1477 kB; LSN=0/33C4680, Redo-LSN=0/33C28E8
+2026-10-13 10:09:47.501 CEST [15772] LOG:  could not reserve shared memory region (addr=000001CBCC330000) for child 000000000000067C: error code 487
+2026-10-13 10:10:02.436 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:10:08.078 CEST [16560] LOG:  Checkpoint komplett: 55 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,492 s, Sync=0,098 s, gesamt=5,642 s; sync. Dateien=19, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=378 kB, Schätzung=1367 kB; LSN=0/3428430, Redo-LSN=0/3421430
+2026-10-13 10:15:02.100 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:15:08.513 CEST [16560] LOG:  Checkpoint komplett: 63 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,274 s, Sync=0,092 s, gesamt=6,413 s; sync. Dateien=18, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=302 kB, Schätzung=1260 kB; LSN=0/3472868, Redo-LSN=0/346CCE0
+2026-10-13 10:15:54.147 CEST [15772] LOG:  could not reserve shared memory region (addr=000001CBCC330000) for child 0000000000000634: error code 487
+2026-10-13 10:20:02.519 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:20:07.802 CEST [16560] LOG:  Checkpoint komplett: 52 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,155 s, Sync=0,095 s, gesamt=5,283 s; sync. Dateien=20, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=326 kB, Schätzung=1167 kB; LSN=0/34C2C98, Redo-LSN=0/34BE868
+2026-10-13 10:25:02.805 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:25:10.033 CEST [16560] LOG:  Checkpoint komplett: 71 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,069 s, Sync=0,121 s, gesamt=7,229 s; sync. Dateien=24, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=355 kB, Schätzung=1086 kB; LSN=0/351C600, Redo-LSN=0/35176D0
+2026-10-13 10:30:02.050 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:30:09.305 CEST [16560] LOG:  Checkpoint komplett: 71 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,098 s, Sync=0,123 s, gesamt=7,256 s; sync. Dateien=24, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=343 kB, Schätzung=1011 kB; LSN=0/3574898, Redo-LSN=0/356D2F8
+2026-10-13 10:35:02.327 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:35:07.760 CEST [16560] LOG:  Checkpoint komplett: 52 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,278 s, Sync=0,113 s, gesamt=5,433 s; sync. Dateien=21, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=325 kB, Schätzung=943 kB; LSN=0/35C2E08, Redo-LSN=0/35BEA48
+2026-10-13 10:40:02.770 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:40:08.193 CEST [16560] LOG:  Checkpoint komplett: 53 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,264 s, Sync=0,122 s, gesamt=5,424 s; sync. Dateien=21, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=329 kB, Schätzung=881 kB; LSN=0/3617998, Redo-LSN=0/3611048
+2026-10-13 10:45:02.216 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:45:06.742 CEST [16560] LOG:  Checkpoint komplett: 44 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,350 s, Sync=0,140 s, gesamt=4,526 s; sync. Dateien=20, längste=0,020 s, Durchschnitt=0.007 s; Entfernung=290 kB, Schätzung=822 kB; LSN=0/365EA48, Redo-LSN=0/3659850
+2026-10-13 10:50:02.745 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 10:50:08.149 CEST [16560] LOG:  Checkpoint komplett: 54 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,262 s, Sync=0,106 s, gesamt=5,404 s; sync. Dateien=21, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=337 kB, Schätzung=774 kB; LSN=0/36B3DF8, Redo-LSN=0/36ADE68
+2026-10-13 11:02:10.463 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:02:21.471 CEST [16560] LOG:  Checkpoint komplett: 56 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=10,430 s, Sync=0,143 s, gesamt=11,009 s; sync. Dateien=21, längste=0,019 s, Durchschnitt=0.007 s; Entfernung=376 kB, Schätzung=734 kB; LSN=0/370EB20, Redo-LSN=0/370C240
+2026-10-13 11:07:10.514 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:07:15.517 CEST [16560] LOG:  Checkpoint komplett: 48 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,856 s, Sync=0,100 s, gesamt=5,003 s; sync. Dateien=19, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=295 kB, Schätzung=690 kB; LSN=0/375C818, Redo-LSN=0/37561A0
+2026-10-13 11:12:10.542 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:12:17.308 CEST [16560] LOG:  Checkpoint komplett: 64 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,610 s, Sync=0,109 s, gesamt=6,767 s; sync. Dateien=23, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=344 kB, Schätzung=656 kB; LSN=0/37B3DE8, Redo-LSN=0/37AC590
+2026-10-13 11:17:10.344 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:17:17.255 CEST [16560] LOG:  Checkpoint komplett: 67 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,758 s, Sync=0,109 s, gesamt=6,912 s; sync. Dateien=20, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=327 kB, Schätzung=623 kB; LSN=0/3805F80, Redo-LSN=0/37FE500
+2026-10-13 11:22:10.281 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:22:15.584 CEST [16560] LOG:  Checkpoint komplett: 52 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,165 s, Sync=0,088 s, gesamt=5,304 s; sync. Dateien=20, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=322 kB, Schätzung=593 kB; LSN=0/3854D08, Redo-LSN=0/384ED48
+2026-10-13 11:27:10.622 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:27:17.115 CEST [16560] LOG:  Checkpoint komplett: 63 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,353 s, Sync=0,104 s, gesamt=6,493 s; sync. Dateien=20, längste=0,014 s, Durchschnitt=0.006 s; Entfernung=303 kB, Schätzung=564 kB; LSN=0/389F4D0, Redo-LSN=0/389AB60
+2026-10-13 11:32:10.158 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:32:15.829 CEST [16560] LOG:  Checkpoint komplett: 55 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,497 s, Sync=0,131 s, gesamt=5,671 s; sync. Dateien=22, längste=0,014 s, Durchschnitt=0.006 s; Entfernung=331 kB, Schätzung=540 kB; LSN=0/38F2A30, Redo-LSN=0/38ED838
+2026-10-13 11:34:02.492 CEST [15772] LOG:  could not reserve shared memory region (addr=000001CBCC330000) for child 000000000000062C: error code 487
+2026-10-13 11:37:10.880 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:37:15.771 CEST [16560] LOG:  Checkpoint komplett: 47 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,709 s, Sync=0,106 s, gesamt=4,891 s; sync. Dateien=20, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=311 kB, Schätzung=517 kB; LSN=0/39443B8, Redo-LSN=0/393B460
+2026-10-13 11:42:10.772 CEST [16560] LOG:  Checkpoint beginnt: time
+2026-10-13 11:42:16.012 CEST [16560] LOG:  Checkpoint komplett: 50 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,088 s, Sync=0,113 s, gesamt=5,240 s; sync. Dateien=21, längste=0,017 s, Durchschnitt=0.006 s; Entfernung=312 kB, Schätzung=497 kB; LSN=0/39914A0, Redo-LSN=0/3989768
+2026-10-13 11:46:03.153 CEST [15772] LOG:  schnelles Herunterfahren verlangt
+2026-10-13 11:46:03.178 CEST [15772] LOG:  etwaige aktive Transaktionen werden abgebrochen
+2026-10-13 11:46:03.181 CEST [21660] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 11:46:03.230 CEST [18688] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 11:46:03.312 CEST [15772] LOG:  Background-Worker »logical replication launcher« (PID 12500) beendete mit Status 1
+2026-10-13 11:46:03.355 CEST [16560] LOG:  fahre herunter
+2026-10-13 11:46:03.364 CEST [16560] LOG:  Checkpoint beginnt: shutdown immediate
+2026-10-13 11:46:03.789 CEST [16560] LOG:  Checkpoint komplett: 57 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=0,140 s, Sync=0,189 s, gesamt=0,434 s; sync. Dateien=21, längste=0,025 s, Durchschnitt=0.009 s; Entfernung=314 kB, Schätzung=479 kB; LSN=0/39D7F68, Redo-LSN=0/39D7F68
+2026-10-13 11:46:03.996 CEST [15772] LOG:  Datenbanksystem ist heruntergefahren
+2026-10-13 11:46:54.162 CEST [17748] LOG:  PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit startet
+2026-10-13 11:46:54.189 CEST [17748] LOG:  erwarte Verbindungen auf IPv6-Adresse »::«, Port 15432
+2026-10-13 11:46:54.190 CEST [17748] LOG:  erwarte Verbindungen auf IPv4-Adresse »0.0.0.0«, Port 15432
+2026-10-13 11:46:54.419 CEST [17748] LOG:  erwarte Verbindungen auf Unix-Socket »C:/Users/boss/AppData/Local/.winccoa/.s.PGSQL.15432«
+2026-10-13 11:46:54.867 CEST [16388] FATAL:  das Datenbanksystem startet
+2026-10-13 11:46:54.939 CEST [15556] LOG:  Datenbanksystem wurde am 2026-10-13 11:46:03 CEST heruntergefahren
+2026-10-13 11:46:55.267 CEST [17748] LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2026-10-13 11:51:54.903 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 11:52:10.753 CEST [11712] LOG:  Checkpoint komplett: 144 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=15,484 s, Sync=0,290 s, gesamt=15,858 s; sync. Dateien=53, längste=0,019 s, Durchschnitt=0.006 s; Entfernung=936 kB, Schätzung=936 kB; LSN=0/3AC8ED0, Redo-LSN=0/3AC22C8
+2026-10-13 11:56:54.825 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 11:57:02.403 CEST [11712] LOG:  Checkpoint komplett: 73 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,337 s, Sync=0,198 s, gesamt=7,578 s; sync. Dateien=41, längste=0,015 s, Durchschnitt=0.005 s; Entfernung=417 kB, Schätzung=884 kB; LSN=0/3B2E3C0, Redo-LSN=0/3B2A9E8
+2026-10-13 12:01:54.420 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:02:02.772 CEST [11712] LOG:  Checkpoint komplett: 82 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=8,180 s, Sync=0,136 s, gesamt=8,353 s; sync. Dateien=23, längste=0,010 s, Durchschnitt=0.006 s; Entfernung=370 kB, Schätzung=833 kB; LSN=0/3B8CFC8, Redo-LSN=0/3B873D8
+2026-10-13 12:06:54.774 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:06:59.770 CEST [11712] LOG:  Checkpoint komplett: 49 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,867 s, Sync=0,086 s, gesamt=4,997 s; sync. Dateien=19, längste=0,013 s, Durchschnitt=0.005 s; Entfernung=330 kB, Schätzung=783 kB; LSN=0/3BE1D70, Redo-LSN=0/3BD9C18
+2026-10-13 12:11:54.793 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:12:02.438 CEST [11712] LOG:  Checkpoint komplett: 75 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,472 s, Sync=0,133 s, gesamt=7,646 s; sync. Dateien=23, längste=0,017 s, Durchschnitt=0.006 s; Entfernung=365 kB, Schätzung=741 kB; LSN=0/3C3BD68, Redo-LSN=0/3C351A0
+2026-10-13 12:16:54.446 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:17:00.362 CEST [11712] LOG:  Checkpoint komplett: 58 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,775 s, Sync=0,102 s, gesamt=5,917 s; sync. Dateien=20, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=353 kB, Schätzung=702 kB; LSN=0/3C95108, Redo-LSN=0/3C8D848
+2026-10-13 12:21:54.364 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:21:58.751 CEST [11712] LOG:  Checkpoint komplett: 43 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,249 s, Sync=0,091 s, gesamt=4,387 s; sync. Dateien=18, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=260 kB, Schätzung=658 kB; LSN=0/3CD2CA8, Redo-LSN=0/3CCE948
+2026-10-13 12:26:54.755 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:27:02.489 CEST [11712] LOG:  Checkpoint komplett: 77 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,574 s, Sync=0,114 s, gesamt=7,735 s; sync. Dateien=21, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=368 kB, Schätzung=629 kB; LSN=0/3D313C8, Redo-LSN=0/3D2AAA8
+2026-10-13 12:31:54.507 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:32:00.821 CEST [11712] LOG:  Checkpoint komplett: 62 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,151 s, Sync=0,121 s, gesamt=6,315 s; sync. Dateien=22, längste=0,018 s, Durchschnitt=0.006 s; Entfernung=347 kB, Schätzung=601 kB; LSN=0/3D87DB0, Redo-LSN=0/3D81A98
+2026-10-13 12:36:54.850 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:37:00.098 CEST [11712] LOG:  Checkpoint komplett: 51 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,078 s, Sync=0,120 s, gesamt=5,248 s; sync. Dateien=22, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=342 kB, Schätzung=575 kB; LSN=0/3DDE400, Redo-LSN=0/3DD74C0
+2026-10-13 12:41:54.117 CEST [11712] LOG:  Checkpoint beginnt: time
+2026-10-13 12:41:59.001 CEST [11712] LOG:  Checkpoint komplett: 48 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,749 s, Sync=0,097 s, gesamt=4,885 s; sync. Dateien=18, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=317 kB, Schätzung=549 kB; LSN=0/3E27AA0, Redo-LSN=0/3E26B20
+2026-10-13 14:40:36.451 CEST [7588] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 14:40:37.891 CEST [3192] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 14:40:37.947 CEST [1868] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 14:40:38.467 CEST [20980] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 14:40:52.848 CEST [17748] LOG:  schnelles Herunterfahren verlangt
+2026-10-13 14:40:52.865 CEST [17748] LOG:  etwaige aktive Transaktionen werden abgebrochen
+2026-10-13 14:40:52.888 CEST [14156] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 14:40:52.888 CEST [20012] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 14:40:52.922 CEST [17748] LOG:  Background-Worker »logical replication launcher« (PID 16484) beendete mit Status 1
+2026-10-13 14:40:52.954 CEST [11712] LOG:  fahre herunter
+2026-10-13 14:40:52.967 CEST [11712] LOG:  Checkpoint beginnt: shutdown immediate
+2026-10-13 14:40:53.626 CEST [11712] LOG:  Checkpoint komplett: 82 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=0,357 s, Sync=0,230 s, gesamt=0,672 s; sync. Dateien=26, längste=0,017 s, Durchschnitt=0.009 s; Entfernung=420 kB, Schätzung=536 kB; LSN=0/3E8FBD8, Redo-LSN=0/3E8FBD8
+2026-10-13 14:40:55.033 CEST [17748] LOG:  Datenbanksystem ist heruntergefahren
+2026-10-13 14:41:13.208 CEST [16504] LOG:  PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit startet
+2026-10-13 14:41:13.210 CEST [16504] LOG:  erwarte Verbindungen auf IPv6-Adresse »::«, Port 15432
+2026-10-13 14:41:13.211 CEST [16504] LOG:  erwarte Verbindungen auf IPv4-Adresse »0.0.0.0«, Port 15432
+2026-10-13 14:41:13.238 CEST [16504] LOG:  erwarte Verbindungen auf Unix-Socket »C:/Users/boss/AppData/Local/.winccoa/.s.PGSQL.15432«
+2026-10-13 14:41:13.504 CEST [18064] LOG:  Datenbanksystem wurde am 2026-10-13 14:40:53 CEST heruntergefahren
+2026-10-13 14:41:13.621 CEST [16504] LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2026-10-13 14:41:32.125 CEST [21028] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10054
+2026-10-13 14:41:32.125 CEST [19352] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10054
+2026-10-13 14:46:13.471 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 14:46:21.237 CEST [21808] LOG:  Checkpoint komplett: 77 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,521 s, Sync=0,204 s, gesamt=7,768 s; sync. Dateien=46, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=392 kB, Schätzung=392 kB; LSN=0/3EF2058, Redo-LSN=0/3EF1FB0
+2026-10-13 14:51:13.255 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 14:51:16.011 CEST [21808] LOG:  Checkpoint komplett: 27 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,633 s, Sync=0,058 s, gesamt=2,756 s; sync. Dateien=14, längste=0,009 s, Durchschnitt=0.005 s; Entfernung=167 kB, Schätzung=370 kB; LSN=0/3F1BC78, Redo-LSN=0/3F1BC20
+2026-10-13 14:56:13.013 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 14:56:16.031 CEST [21808] LOG:  Checkpoint komplett: 28 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,879 s, Sync=0,085 s, gesamt=3,018 s; sync. Dateien=15, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=184 kB, Schätzung=351 kB; LSN=0/3F49EB8, Redo-LSN=0/3F49E60
+2026-10-13 15:01:13.064 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 15:01:16.938 CEST [21808] LOG:  Checkpoint komplett: 37 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=3,664 s, Sync=0,117 s, gesamt=3,865 s; sync. Dateien=12, längste=0,018 s, Durchschnitt=0.010 s; Entfernung=138 kB, Schätzung=330 kB; LSN=0/3F6C920, Redo-LSN=0/3F6C8C8
+2026-10-13 15:06:13.960 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 15:06:16.685 CEST [21808] LOG:  Checkpoint komplett: 26 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,583 s, Sync=0,080 s, gesamt=2,726 s; sync. Dateien=14, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=154 kB, Schätzung=312 kB; LSN=0/3F934A8, Redo-LSN=0/3F93450
+2026-10-13 15:10:55.769 CEST [16504] LOG:  could not reserve shared memory region (addr=0000019963AE0000) for child 000000000000158C: error code 487
+2026-10-13 15:11:13.714 CEST [21808] LOG:  Checkpoint beginnt: time
+2026-10-13 15:11:16.084 CEST [21808] LOG:  Checkpoint komplett: 22 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,142 s, Sync=0,150 s, gesamt=2,370 s; sync. Dateien=13, längste=0,062 s, Durchschnitt=0.012 s; Entfernung=138 kB, Schätzung=295 kB; LSN=0/3FB6048, Redo-LSN=0/3FB5FD8
+2026-10-13 15:12:42.031 CEST [16504] LOG:  schnelles Herunterfahren verlangt
+2026-10-13 15:12:42.045 CEST [16504] LOG:  etwaige aktive Transaktionen werden abgebrochen
+2026-10-13 15:12:42.048 CEST [19612] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 15:12:42.076 CEST [16504] LOG:  Background-Worker »logical replication launcher« (PID 6652) beendete mit Status 1
+2026-10-13 15:12:42.087 CEST [21808] LOG:  fahre herunter
+2026-10-13 15:12:42.096 CEST [21808] LOG:  Checkpoint beginnt: shutdown immediate
+2026-10-13 15:12:42.287 CEST [21808] LOG:  Checkpoint komplett: 28 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=0,020 s, Sync=0,135 s, gesamt=0,200 s; sync. Dateien=14, längste=0,016 s, Durchschnitt=0.010 s; Entfernung=177 kB, Schätzung=283 kB; LSN=0/3FE2678, Redo-LSN=0/3FE2678
+2026-10-13 15:12:42.376 CEST [16504] LOG:  Datenbanksystem ist heruntergefahren
+2026-10-13 15:13:11.246 CEST [13764] LOG:  PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit startet
+2026-10-13 15:13:11.255 CEST [13764] LOG:  erwarte Verbindungen auf IPv6-Adresse »::«, Port 15432
+2026-10-13 15:13:11.255 CEST [13764] LOG:  erwarte Verbindungen auf IPv4-Adresse »0.0.0.0«, Port 15432
+2026-10-13 15:13:11.293 CEST [13764] LOG:  erwarte Verbindungen auf Unix-Socket »C:/Users/boss/AppData/Local/.winccoa/.s.PGSQL.15432«
+2026-10-13 15:13:11.522 CEST [4300] LOG:  Datenbanksystem wurde am 2026-10-13 15:12:42 CEST heruntergefahren
+2026-10-13 15:13:11.736 CEST [13764] LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2026-10-13 15:18:11.577 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:18:24.635 CEST [21308] LOG:  Checkpoint komplett: 126 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 1 wiederverwendet; Schreiben=12,475 s, Sync=0,469 s, gesamt=13,061 s; sync. Dateien=53, längste=0,031 s, Durchschnitt=0.009 s; Entfernung=606 kB, Schätzung=606 kB; LSN=0/407ED40, Redo-LSN=0/407A250
+2026-10-13 15:19:30.775 CEST [13764] LOG:  could not reserve shared memory region (addr=0000016AFCF50000) for child 0000000000001658: error code 487
+2026-10-13 15:23:11.640 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:23:22.674 CEST [21308] LOG:  Checkpoint komplett: 104 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=10,474 s, Sync=0,489 s, gesamt=11,034 s; sync. Dateien=49, längste=0,038 s, Durchschnitt=0.010 s; Entfernung=469 kB, Schätzung=593 kB; LSN=0/40F6CD8, Redo-LSN=0/40EF6C0
+2026-10-13 15:28:11.749 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:28:17.972 CEST [21308] LOG:  Checkpoint komplett: 58 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,024 s, Sync=0,159 s, gesamt=6,224 s; sync. Dateien=20, längste=0,017 s, Durchschnitt=0.008 s; Entfernung=362 kB, Schätzung=570 kB; LSN=0/41502D0, Redo-LSN=0/4149F18
+2026-10-13 15:33:11.975 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:33:19.049 CEST [21308] LOG:  Checkpoint komplett: 66 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,943 s, Sync=0,099 s, gesamt=7,075 s; sync. Dateien=20, längste=0,014 s, Durchschnitt=0.005 s; Entfernung=370 kB, Schätzung=550 kB; LSN=0/41A8500, Redo-LSN=0/41A6928
+2026-10-13 15:38:11.049 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:38:16.051 CEST [21308] LOG:  Checkpoint komplett: 49 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,850 s, Sync=0,101 s, gesamt=5,003 s; sync. Dateien=20, längste=0,010 s, Durchschnitt=0.006 s; Entfernung=319 kB, Schätzung=527 kB; LSN=0/41FB0E8, Redo-LSN=0/41F6730
+2026-10-13 15:43:11.053 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:43:15.752 CEST [21308] LOG:  Checkpoint komplett: 46 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,554 s, Sync=0,094 s, gesamt=4,699 s; sync. Dateien=19, längste=0,017 s, Durchschnitt=0.005 s; Entfernung=301 kB, Schätzung=504 kB; LSN=0/4243F88, Redo-LSN=0/4241E90
+2026-10-13 15:48:11.753 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:48:17.993 CEST [21308] LOG:  Checkpoint komplett: 61 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,095 s, Sync=0,114 s, gesamt=6,241 s; sync. Dateien=19, längste=0,012 s, Durchschnitt=0.006 s; Entfernung=282 kB, Schätzung=482 kB; LSN=0/428C498, Redo-LSN=0/4288690
+2026-10-13 15:53:11.014 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:53:17.601 CEST [21308] LOG:  Checkpoint komplett: 65 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,472 s, Sync=0,087 s, gesamt=6,588 s; sync. Dateien=18, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=358 kB, Schätzung=469 kB; LSN=0/42E8618, Redo-LSN=0/42E1FA0
+2026-10-13 15:58:11.603 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 15:58:15.891 CEST [21308] LOG:  Checkpoint komplett: 42 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,153 s, Sync=0,090 s, gesamt=4,288 s; sync. Dateien=17, längste=0,017 s, Durchschnitt=0.006 s; Entfernung=285 kB, Schätzung=451 kB; LSN=0/432DC60, Redo-LSN=0/4329720
+2026-10-13 16:03:11.891 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:03:17.108 CEST [21308] LOG:  Checkpoint komplett: 50 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,041 s, Sync=0,111 s, gesamt=5,217 s; sync. Dateien=20, längste=0,014 s, Durchschnitt=0.006 s; Entfernung=324 kB, Schätzung=438 kB; LSN=0/43804D0, Redo-LSN=0/437A890
+2026-10-13 16:08:11.110 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:08:17.884 CEST [21308] LOG:  Checkpoint komplett: 66 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,572 s, Sync=0,154 s, gesamt=6,774 s; sync. Dateien=20, längste=0,031 s, Durchschnitt=0.008 s; Entfernung=285 kB, Schätzung=423 kB; LSN=0/43C61F0, Redo-LSN=0/43C1CB8
+2026-10-13 16:13:11.909 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:13:18.316 CEST [21308] LOG:  Checkpoint komplett: 63 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,265 s, Sync=0,104 s, gesamt=6,407 s; sync. Dateien=20, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=344 kB, Schätzung=415 kB; LSN=0/441D2D0, Redo-LSN=0/4417DE0
+2026-10-13 16:14:56.231 CEST [13764] LOG:  could not reserve shared memory region (addr=0000016AFCF50000) for child 00000000000016F4: error code 487
+2026-10-13 16:18:11.330 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:18:17.334 CEST [21308] LOG:  Checkpoint komplett: 51 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,465 s, Sync=0,097 s, gesamt=6,005 s; sync. Dateien=19, längste=0,010 s, Durchschnitt=0.006 s; Entfernung=342 kB, Schätzung=408 kB; LSN=0/44703C8, Redo-LSN=0/446D6E8
+2026-10-13 16:23:11.337 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:23:24.001 CEST [21308] LOG:  Checkpoint komplett: 87 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=12,351 s, Sync=0,251 s, gesamt=12,665 s; sync. Dateien=44, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=478 kB, Schätzung=478 kB; LSN=0/44E4F98, Redo-LSN=0/44E4F08
+2026-10-13 16:28:11.053 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:28:13.726 CEST [21308] LOG:  Checkpoint komplett: 26 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,561 s, Sync=0,064 s, gesamt=2,674 s; sync. Dateien=13, längste=0,011 s, Durchschnitt=0.005 s; Entfernung=151 kB, Schätzung=445 kB; LSN=0/450ADD0, Redo-LSN=0/450AD78
+2026-10-13 16:33:11.749 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:33:14.867 CEST [21308] LOG:  Checkpoint komplett: 28 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,868 s, Sync=0,116 s, gesamt=3,119 s; sync. Dateien=14, längste=0,021 s, Durchschnitt=0.009 s; Entfernung=162 kB, Schätzung=417 kB; LSN=0/4533768, Redo-LSN=0/4533710
+2026-10-13 16:38:11.870 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:38:15.759 CEST [21308] LOG:  Checkpoint komplett: 38 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=3,765 s, Sync=0,095 s, gesamt=3,890 s; sync. Dateien=13, längste=0,012 s, Durchschnitt=0.008 s; Entfernung=149 kB, Schätzung=390 kB; LSN=0/4558C90, Redo-LSN=0/4558C38
+2026-10-13 16:38:54.002 CEST [13764] LOG:  could not reserve shared memory region (addr=0000016AFCF50000) for child 0000000000001580: error code 487
+2026-10-13 16:43:11.760 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:43:14.221 CEST [21308] LOG:  Checkpoint komplett: 24 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,339 s, Sync=0,088 s, gesamt=2,462 s; sync. Dateien=12, längste=0,012 s, Durchschnitt=0.008 s; Entfernung=142 kB, Schätzung=365 kB; LSN=0/457C578, Redo-LSN=0/457C4E8
+2026-10-13 16:48:11.222 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:48:12.951 CEST [21308] LOG:  Checkpoint komplett: 17 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=1,626 s, Sync=0,065 s, gesamt=1,729 s; sync. Dateien=12, längste=0,009 s, Durchschnitt=0.006 s; Entfernung=105 kB, Schätzung=339 kB; LSN=0/4596B50, Redo-LSN=0/4596AF8
+2026-10-13 16:51:58.901 CEST [13764] LOG:  could not reserve shared memory region (addr=0000016AFCF50000) for child 0000000000001528: error code 487
+2026-10-13 16:53:11.951 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:53:15.117 CEST [21308] LOG:  Checkpoint komplett: 31 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=3,037 s, Sync=0,086 s, gesamt=3,167 s; sync. Dateien=14, längste=0,012 s, Durchschnitt=0.007 s; Entfernung=183 kB, Schätzung=323 kB; LSN=0/45C4B20, Redo-LSN=0/45C4AC8
+2026-10-13 16:58:11.118 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 16:58:13.105 CEST [21308] LOG:  Checkpoint komplett: 19 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=1,835 s, Sync=0,106 s, gesamt=1,987 s; sync. Dateien=13, längste=0,013 s, Durchschnitt=0.009 s; Entfernung=115 kB, Schätzung=303 kB; LSN=0/45E1990, Redo-LSN=0/45E1938
+2026-10-13 17:03:11.105 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 17:03:13.979 CEST [21308] LOG:  Checkpoint komplett: 28 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=2,734 s, Sync=0,097 s, gesamt=2,874 s; sync. Dateien=15, längste=0,012 s, Durchschnitt=0.007 s; Entfernung=171 kB, Schätzung=289 kB; LSN=0/460C730, Redo-LSN=0/460C6D8
+2026-10-13 17:08:11.981 CEST [21308] LOG:  Checkpoint beginnt: time
+2026-10-13 17:08:13.920 CEST [21308] LOG:  Checkpoint komplett: 19 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=1,821 s, Sync=0,075 s, gesamt=1,940 s; sync. Dateien=12, längste=0,011 s, Durchschnitt=0.007 s; Entfernung=118 kB, Schätzung=272 kB; LSN=0/462A308, Redo-LSN=0/462A2B0
+2026-10-13 17:13:02.990 CEST [13764] LOG:  schnelles Herunterfahren verlangt
+2026-10-13 17:13:03.007 CEST [13764] LOG:  etwaige aktive Transaktionen werden abgebrochen
+2026-10-13 17:13:03.007 CEST [5604] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 17:13:03.061 CEST [10872] FATAL:  Verbindung wird abgebrochen aufgrund von Anweisung des Administrators
+2026-10-13 17:13:03.106 CEST [13764] LOG:  Background-Worker »logical replication launcher« (PID 4940) beendete mit Status 1
+2026-10-13 17:13:03.131 CEST [21308] LOG:  fahre herunter
+2026-10-13 17:13:03.148 CEST [21308] LOG:  Checkpoint beginnt: shutdown immediate
+2026-10-13 17:13:03.352 CEST [21308] LOG:  Checkpoint komplett: 27 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=0,055 s, Sync=0,102 s, gesamt=0,221 s; sync. Dateien=13, längste=0,013 s, Durchschnitt=0.008 s; Entfernung=159 kB, Schätzung=261 kB; LSN=0/4651F20, Redo-LSN=0/4651F20
+2026-10-13 17:13:03.501 CEST [13764] LOG:  Datenbanksystem ist heruntergefahren
+2026-10-13 17:13:47.825 CEST [17780] LOG:  PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit startet
+2026-10-13 17:13:47.831 CEST [17780] LOG:  erwarte Verbindungen auf IPv6-Adresse »::«, Port 15432
+2026-10-13 17:13:47.831 CEST [17780] LOG:  erwarte Verbindungen auf IPv4-Adresse »0.0.0.0«, Port 15432
+2026-10-13 17:13:47.879 CEST [17780] LOG:  erwarte Verbindungen auf Unix-Socket »C:/Users/boss/AppData/Local/.winccoa/.s.PGSQL.15432«
+2026-10-13 17:13:48.145 CEST [3652] LOG:  Datenbanksystem wurde am 2026-10-13 17:13:03 CEST heruntergefahren
+2026-10-13 17:13:48.154 CEST [19404] FATAL:  das Datenbanksystem startet
+2026-10-13 17:13:48.300 CEST [17780] LOG:  Datenbanksystem ist bereit, um Verbindungen anzunehmen
+2026-10-13 17:13:48.369 CEST [3864] FATAL:  das Datenbanksystem startet
+2026-10-13 17:18:48.131 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:19:01.251 CEST [5640] LOG:  Checkpoint komplett: 130 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=12,851 s, Sync=0,223 s, gesamt=13,122 s; sync. Dateien=54, längste=0,009 s, Durchschnitt=0.005 s; Entfernung=813 kB, Schätzung=813 kB; LSN=0/4723990, Redo-LSN=0/471D518
+2026-10-13 17:23:48.268 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:24:00.773 CEST [5640] LOG:  Checkpoint komplett: 122 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=12,231 s, Sync=0,233 s, gesamt=12,505 s; sync. Dateien=47, längste=0,016 s, Durchschnitt=0.005 s; Entfernung=478 kB, Schätzung=780 kB; LSN=0/4799388, Redo-LSN=0/4794FC8
+2026-10-13 17:28:48.781 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:28:54.799 CEST [5640] LOG:  Checkpoint komplett: 59 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,861 s, Sync=0,112 s, gesamt=6,019 s; sync. Dateien=20, längste=0,017 s, Durchschnitt=0.006 s; Entfernung=346 kB, Schätzung=736 kB; LSN=0/47F1270, Redo-LSN=0/47EB910
+2026-10-13 17:33:48.803 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:33:54.627 CEST [5640] LOG:  Checkpoint komplett: 57 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,667 s, Sync=0,118 s, gesamt=5,824 s; sync. Dateien=19, längste=0,016 s, Durchschnitt=0.007 s; Entfernung=334 kB, Schätzung=696 kB; LSN=0/4847880, Redo-LSN=0/483F490
+2026-10-13 17:37:50.599 CEST [17780] LOG:  could not reserve shared memory region (addr=000002226D240000) for child 00000000000014F8: error code 487
+2026-10-13 17:38:48.632 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:38:53.603 CEST [5640] LOG:  Checkpoint komplett: 49 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=4,852 s, Sync=0,081 s, gesamt=4,971 s; sync. Dateien=18, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=333 kB, Schätzung=660 kB; LSN=0/4894A30, Redo-LSN=0/48929F0
+2026-10-13 17:48:14.664 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:48:24.609 CEST [5640] LOG:  Checkpoint komplett: 95 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=9,684 s, Sync=0,217 s, gesamt=9,945 s; sync. Dateien=42, längste=0,023 s, Durchschnitt=0.006 s; Entfernung=651 kB, Schätzung=659 kB; LSN=0/493BD70, Redo-LSN=0/49357D8
+2026-10-13 17:53:14.621 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:53:28.361 CEST [5640] LOG:  Checkpoint komplett: 112 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=13,453 s, Sync=0,225 s, gesamt=13,740 s; sync. Dateien=42, längste=0,016 s, Durchschnitt=0.006 s; Entfernung=631 kB, Schätzung=656 kB; LSN=0/49D9898, Redo-LSN=0/49D3478
+2026-10-13 17:57:14.042 CEST [2844] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:57:17.916 CEST [6248] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:57:21.540 CEST [15388] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:57:29.619 CEST [17148] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:58:14.902 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 17:58:33.087 CEST [5640] LOG:  Checkpoint komplett: 51 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=16,619 s, Sync=0,180 s, gesamt=18,202 s; sync. Dateien=20, längste=0,020 s, Durchschnitt=0.009 s; Entfernung=307 kB, Schätzung=621 kB; LSN=0/4A20148, Redo-LSN=0/4A200B8
+2026-10-13 17:59:04.761 CEST [11976] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:59:11.506 CEST [22132] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:59:16.881 CEST [20060] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:59:16.793 CEST [20700] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 17:59:21.543 CEST [6320] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 18:03:14.822 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 18:03:24.181 CEST [5640] LOG:  Checkpoint komplett: 91 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=9,120 s, Sync=0,199 s, gesamt=9,359 s; sync. Dateien=44, längste=0,016 s, Durchschnitt=0.005 s; Entfernung=586 kB, Schätzung=617 kB; LSN=0/4AB9AF0, Redo-LSN=0/4AB2968
+2026-10-13 18:08:14.201 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 18:08:21.523 CEST [5640] LOG:  Checkpoint komplett: 72 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=7,181 s, Sync=0,098 s, gesamt=7,323 s; sync. Dateien=20, längste=0,012 s, Durchschnitt=0.005 s; Entfernung=373 kB, Schätzung=593 kB; LSN=0/4B17DF8, Redo-LSN=0/4B0FEC0
+2026-10-13 18:13:14.526 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 18:13:21.346 CEST [5640] LOG:  Checkpoint komplett: 67 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=6,670 s, Sync=0,106 s, gesamt=6,821 s; sync. Dateien=18, längste=0,013 s, Durchschnitt=0.006 s; Entfernung=334 kB, Schätzung=567 kB; LSN=0/4B6A590, Redo-LSN=0/4B63818
+2026-10-13 18:18:14.365 CEST [5640] LOG:  Checkpoint beginnt: time
+2026-10-13 18:18:19.709 CEST [5640] LOG:  Checkpoint komplett: 52 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=5,174 s, Sync=0,118 s, gesamt=5,345 s; sync. Dateien=20, längste=0,017 s, Durchschnitt=0.006 s; Entfernung=319 kB, Schätzung=542 kB; LSN=0/4BB85F8, Redo-LSN=0/4BB3548
+2026-10-13 21:21:32.030 CEST [7228] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 21:21:32.361 CEST [13508] LOG:  konnte Daten vom Client nicht empfangen: unrecognized winsock error 10053
+2026-10-13 21:21:46.291 CEST [17780] LOG:  schnelles Herunterfahren verlangt
+2026-10-13 21:21:46.296 CEST [17780] LOG:  etwaige aktive Transaktionen werden abgebrochen
+2026-10-13 21:21:46.400 CEST [17780] LOG:  Background-Worker »logical replication launcher« (PID 18928) beendete mit Status 1
+2026-10-13 21:21:46.441 CEST [5640] LOG:  fahre herunter
+2026-10-13 21:21:46.450 CEST [5640] LOG:  Checkpoint beginnt: shutdown immediate
+2026-10-14 09:51:40.605 CEST [5640] LOG:  Checkpoint komplett: 37 Puffer geschrieben (0.0%); 0 WAL-Datei(en) hinzugefügt, 0 entfernt, 0 wiederverwendet; Schreiben=44991,000 s, Sync=2,939 s, gesamt=44994,164 s; sync. Dateien=18, längste=0,569 s, Durchschnitt=0.164 s; Entfernung=239 kB, Schätzung=512 kB; LSN=0/4BEF438, Redo-LSN=0/4BEF438
+2026-10-14 09:51:46.687 CEST [17780] LOG:  Datenbanksystem ist heruntergefahren

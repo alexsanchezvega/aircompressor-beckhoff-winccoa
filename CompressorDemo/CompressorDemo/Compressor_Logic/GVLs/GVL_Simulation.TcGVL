@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="GVL_Simulation" Id="{b1a92783-9ce8-4495-99f5-63c434bbfaef}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	new639273999599143462: BOOL;
+    DI_Comp3_LoadUnloadComp     : BOOL; (* Load/Unload compressore *)
+    DI_Comp4_EmergencyStop      : BOOL; (* Emergency Stop (Schliesser/Öffner Logik beachten) *)
+
+    (* ========================================== *)
+    (* DIGITAL OUTPUTS (DO) COMPRESSOR 1                     *)
+    (* ========================================== *)
+	
+    DO_Comp1_Allarm              : BOOL; (* Allarm *)
+    DO_Comp1_Trip                : BOOL; (* Trip *)
+    DO_Comp1_ReadyToStart        : BOOL; (* Ready to Start *)
+    DO_Comp1_RemoteMode          : BOOL; (* Remote Mode *)
+    DO_Comp1_Running             : BOOL; (* Running *)
+    DO_Comp1_Loaded              : BOOL; (* Loaded *)
+    DO_Comp1_Unloaded            : BOOL; (* Unloaded *)
+    DO_Comp1_SurgeCondition      : BOOL; (* Surge condition (Pumpgrenze / Pumpenwarnung) *)
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

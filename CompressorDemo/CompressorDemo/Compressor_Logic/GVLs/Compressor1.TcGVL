@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="Compressor1" Id="{7e1fe28b-e806-4459-8eef-a763858cdd13}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+    (* ========================================== *)
+    (* NETZWERK & SYSTEM-PARAMETER                *)
+    (* ========================================== *)
+    rNetPressure            : REAL; (* Netzdruck / Systemdruck *)
+    rPressureSetpoint       : REAL; (* Druck-Sollwert *)
+
+    (* ========================================== *)
+    (* KOMPRESSOR 1                               *)
+    (* ========================================== *)
+    DI_Comp1_StartMotor     : BOOL;
+    DI_Comp1_StopMotor      : BOOL;
+    DI_Comp1_LoadUnloadComp : BOOL;
+    DI_Comp1_EmergencyStop  : BOOL;
+
+    DO_Comp1_Allarm         : BOOL;
+    DO_Comp1_Trip           : BOOL;
+    DO_Comp1_ReadyToStart   : BOOL;
+    DO_Comp1_RemoteMode     : BOOL;
+    DO_Comp1_Running        : BOOL;
+    DO_Comp1_Loaded         : BOOL;
+    DO_Comp1_Unloaded       : BOOL;
+    DO_Comp1_SurgeCondition : BOOL;
+
+    (* ========================================== *)
+    (* KOMPRESSOR 2                               *)
+    (* ========================================== *)
+    DI_Comp2_StartMotor     : BOOL;
+    DI_Comp2_StopMotor      : BOOL;
+    DI_Comp2_LoadUnloadComp : BOOL;
+    DI_Comp2_EmergencyStop  : BOOL;
+
+    DO_Comp2_Allarm         : BOOL;
+    DO_Comp2_Trip           : BOOL;
+    DO_Comp2_ReadyToStart   : BOOL;
+    DO_Comp2_RemoteMode     : BOOL;
+    DO_Comp2_Running        : BOOL;
+    DO_Comp2_Loaded         : BOOL;
+    DO_Comp2_Unloaded       : BOOL;
+    DO_Comp2_SurgeCondition : BOOL;
+
+    (* ========================================== *)
+    (* KOMPRESSOR 3                               *)
+    (* ========================================== *)
+    DI_Comp3_StartMotor     : BOOL;
+    DI_Comp3_StopMotor      : BOOL;
+    DI_Comp3_LoadUnloadComp : BOOL;
+    DI_Comp3_EmergencyStop  : BOOL;
+
+    DO_Comp3_Allarm         : BOOL;
+    DO_Comp3_Trip           : BOOL;
+    DO_Comp3_ReadyToStart   : BOOL;
+    DO_Comp3_RemoteMode     : BOOL;
+    DO_Comp3_Running        : BOOL;
+    DO_Comp3_Loaded         : BOOL;
+    DO_Comp3_Unloaded       : BOOL;
+    DO_Comp3_SurgeCondition : BOOL;
+
+    (* ========================================== *)
+    (* KOMPRESSOR 4                               *)
+    (* ========================================== *)
+    DI_Comp4_StartMotor     : BOOL;
+    DI_Comp4_StopMotor      : BOOL;
+    DI_Comp4_LoadUnloadComp : BOOL;
+    DI_Comp4_EmergencyStop  : BOOL;
+
+    DO_Comp4_Allarm         : BOOL;
+    DO_Comp4_Trip           : BOOL;
+    DO_Comp4_ReadyToStart   : BOOL;
+    DO_Comp4_RemoteMode     : BOOL;
+    DO_Comp4_Running        : BOOL;
+    DO_Comp4_Loaded         : BOOL;
+    DO_Comp4_Unloaded       : BOOL;
+    DO_Comp4_SurgeCondition : BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

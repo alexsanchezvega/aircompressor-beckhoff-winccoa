@@ -1,0 +1,15 @@
+[2026.10.12 12:41:04.675 ] "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl" -log +stderr -log -file ngaSetDefaultDatabase.ctl postgresql  -data localhost -event localhost
+WCCOActrl    (0), 2026.10.12 12:41:04.907, SYS,  INFO,        1, Manager Start, PROJ, CompressorDemoHMI, V 3.21 - 3.21.6 platform Windows AMD64 linked at Sep 29 2026 21:29:48 (a2932d3f879907fd6494d322f20375eb1a80f6b4)
+WCCOActrl    (0), 2026.10.12 12:41:04.909, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2026.10.12 12:41:04.923, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ alexhp (::1)
+WCCOActrl    (1), 2026.10.12 12:41:04.944, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.10.12 12:41:04.944, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.10.12 12:41:04.954, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ alexhp (::1)
+WCCOActrl    (1), 2026.10.12 12:41:04.966, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.10.12 12:41:04.966, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2026.10.12 12:41:05.174, SYS,  INFO,        1, Manager Start, ngaSetDefaultDatabase.ctl
+WCCOActrl    (1), 2026.10.12 12:41:05.175, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.10.12 12:41:05.175, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOActrl    (1), 2026.10.12 12:41:05.175, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.10.12 12:41:05.175, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.10.12 12:41:05.184, SYS,  INFO,        2, Manager Stop

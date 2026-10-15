@@ -1,0 +1,63 @@
+WCCILdataSQLite(0), 2026.10.12 12:40:52.255, SYS,  INFO,        1, Manager Start, PROJ, CompressorDemoHMI, V 3.21 - 3.21.6 platform Windows AMD64 linked at Sep 29 2026 21:29:48 (a2932d3f879907fd6494d322f20375eb1a80f6b4)
+WCCILdataSQLite(0), 2026.10.12 12:40:52.518, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2026.10.12 12:40:52.518, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2026.10.12 12:40:52.520, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2026.10.12 12:40:52.520, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2026.10.12 12:40:52.520, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2026.10.12 12:40:52.521, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2026.10.12 12:40:52.521, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILdataSQLite(0), 2026.10.12 12:40:54.016, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:54.020, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:54.026, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:54.939, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILdataSQLite(0), 2026.10.12 12:40:54.939, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILdataSQLite(0), 2026.10.12 12:40:55.414, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 2 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:55.417, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 2 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:55.963, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:55.967, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:56.504, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:56.505, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:56.531, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:57.124, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:40:57.347, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:57.355, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:57.380, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:58.133, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:40:58.343, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:40:58.348, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:40:58.373, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:03.949, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:04.165, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:04.173, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:04.197, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:04.229, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:04.441, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:04.448, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:04.474, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:04.650, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:04.938, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:04.941, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:04.966, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:05.175, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:05.494, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:05.498, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:05.525, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:05.546, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:05.780, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:05.783, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:05.812, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:05.830, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:06.049, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:06.051, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:06.076, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:06.094, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:06.385, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ alexhp (::1)
+WCCILdataSQLite(0), 2026.10.12 12:41:06.390, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:06.414, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.10.12 12:41:06.433, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:06.466, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 2 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:06.508, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:06.609, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.10.12 12:41:07.610, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2026.10.12 12:41:08.611, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2026.10.12 12:41:08.621, SYS,  INFO,        2, Manager Stop

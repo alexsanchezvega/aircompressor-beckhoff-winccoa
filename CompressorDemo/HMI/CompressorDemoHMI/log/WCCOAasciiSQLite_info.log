@@ -1,0 +1,12 @@
+processing file C:\Program Files\Siemens\WinCC_OA\3.21\dplist\update_005.dpl
+
+DpAuth (23): Values for _Event.License.ExpirationCnt sent.
+
+DpAuth (43): Values for _Event_2.License.ExpirationCnt sent.
+
+Waiting for last response from eventmanager...
+
+Scanning of file C:\Program Files\Siemens\WinCC_OA\3.21\dplist\update_005.dpl is finished (0)
+
+End of Program
+

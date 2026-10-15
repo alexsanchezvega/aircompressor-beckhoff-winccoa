@@ -1,0 +1,366 @@
+WCCILpmon    (1), 2026.10.12 12:41:35.850, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.10.12 12:41:35.987, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.12 12:41:36.627, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.12 12:41:37.959, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.12 12:41:40.106, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.12 12:41:40.881, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.12 12:41:41.497, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 12:41:42.713, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.12 12:41:43.432, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.12 12:41:46.801, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 12:41:49.498, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.12 12:42:19.636, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.12 14:41:41.231, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 14:41:41.870, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 14:41:45.032, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 14:41:45.331, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 14:41:47.898, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.12 14:41:48.000, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:41:48.005, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:41:48.109, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:41:48.111, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:42:18.053, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.12 14:42:18.063, SYS,  INFO,       17/pmon, Stoppe Manager node(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.12 14:42:18.198, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAui(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 14:42:18.623, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:42:20.584, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 14:42:21.093, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.12 14:42:21.202, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.12 14:42:21.922, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.12 14:42:23.459, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.12 14:42:25.666, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.12 14:42:26.273, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.12 14:42:26.885, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 14:42:27.695, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.12 14:42:28.343, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.12 14:42:29.058, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 14:42:30.280, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.12 14:42:55.678, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.12 16:04:38.114, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 16:05:03.297, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.12 16:59:44.657, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 16:59:46.961, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILevent(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 16:59:47.088, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.12 16:59:47.451, SYS,  WARNING,    39/pmon, Manager WCCILevent(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.12 16:59:47.679, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 16:59:48.359, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 16:59:51.013, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 16:59:51.324, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 16:59:55.913, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.12 16:59:56.015, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 16:59:56.017, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 16:59:56.019, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 16:59:56.021, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 17:00:26.050, SYS,  INFO,       17/pmon, Stoppe Manager node(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.12 17:00:26.153, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 17:00:28.164, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.12 17:00:28.365, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.12 17:00:28.472, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.12 17:00:28.789, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.12 17:00:29.501, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.12 17:00:31.313, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.12 17:00:31.723, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.12 17:00:32.132, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 17:00:33.024, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.12 17:00:33.534, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.12 17:00:34.161, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 17:00:35.266, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.12 17:00:51.250, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.12 21:21:19.637, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILproxy(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 21:21:21.708, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.12 21:21:21.845, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.12 21:21:22.288, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 21:21:22.537, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.12 21:21:26.710, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 21:21:26.865, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.12 21:21:29.012, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 21:21:29.050, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.12 21:21:29.855, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.12 21:21:29.896, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.12 21:21:30.725, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2026.10.12 21:21:30.755, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.12 21:21:31.877, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #3
+WCCILpmon    (1), 2026.10.12 21:21:31.924, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 09:44:58.684, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 09:45:01.674, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAnextgenarch(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 09:45:01.678, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 09:45:02.412, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 09:45:02.969, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 09:45:02.973, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 09:45:10.606, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.13 09:45:10.712, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:10.715, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:10.717, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:11.202, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:11.369, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:11.532, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:12.241, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:28.712, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 09:45:28.717, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAui(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 09:45:40.727, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 09:45:41.400, SYS,  INFO,       17/pmon, Stoppe Manager node(2) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 09:45:41.564, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 09:45:42.739, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:45.149, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 09:45:46.058, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.13 09:45:46.334, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.13 09:45:49.278, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 09:45:55.383, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.13 09:46:00.867, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.13 09:46:01.411, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.13 09:46:02.424, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 09:46:04.752, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 09:46:05.903, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 09:46:07.348, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 09:46:09.500, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.13 09:46:31.198, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.13 10:58:24.638, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 10:58:25.851, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 11:46:01.913, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 11:46:01.949, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 11:46:03.960, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 11:46:03.991, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 11:46:04.597, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 11:46:04.622, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 11:46:04.923, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 11:46:04.955, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 11:46:05.894, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOAnextgenarch(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 11:46:05.911, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 11:46:06.215, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.13 11:46:06.318, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:06.320, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:06.329, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:06.342, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:06.346, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:06.349, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:36.391, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 11:46:36.420, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 11:46:36.437, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAui(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 11:46:36.746, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:38.823, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 11:46:39.329, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.13 11:46:39.441, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.13 11:46:39.958, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 11:46:41.179, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.13 11:46:44.395, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.13 11:46:44.912, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.13 11:46:45.524, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 11:46:46.827, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 11:46:47.897, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 11:46:49.116, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 11:46:51.034, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.13 11:47:16.113, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.13 14:40:33.621, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 14:40:33.685, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILproxy(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 14:40:34.453, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 14:40:34.997, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 14:40:35.000, SYS,  WARNING,    39/pmon, Manager WCCILproxy(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 14:40:35.892, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 14:40:36.079, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 14:40:39.518, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 14:40:39.686, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 14:40:41.998, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 14:40:42.092, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 14:40:48.451, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 14:40:48.577, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 14:40:55.858, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOAnextgenarch(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 14:40:55.894, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 14:41:01.755, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 14:41:01.876, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.13 14:41:01.979, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:01.981, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:01.983, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:01.985, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:01.987, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:02.007, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:32.002, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 14:41:32.105, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 14:41:32.209, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:34.133, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 14:41:35.041, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.13 14:41:35.203, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.13 14:41:36.552, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 14:41:37.528, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.13 14:41:40.066, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.13 14:41:41.684, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.13 14:41:42.146, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 14:41:42.960, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 14:41:43.468, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 14:41:44.178, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 14:41:45.403, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.13 14:41:58.267, SYS,  SEVERE,     45/pmon, Notfall Modus erkannt.
+WCCILpmon    (1), 2026.10.13 14:42:01.533, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.13 15:12:41.322, SYS,  INFO,        3/pmon, Erhielt shutdown Befehl - stoppe das Projekt und beende mich
+WCCILpmon    (1), 2026.10.13 15:12:41.324, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:41.328, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:41.330, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:41.333, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:41.337, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:41.340, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:42.630, SYS,  INFO,       17/pmon, Stoppe Manager WCCILevent(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:42.934, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:44.863, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 15:12:45.066, SYS,  INFO,       15/pmon, Projekt wurde komplett gestoppt - beende mich
+WCCILpmon    (1), 2026.10.13 15:12:45.069, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.10.13 15:12:56.220, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.10.13 15:12:56.387, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.13 15:12:57.173, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 15:12:58.293, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.13 15:13:00.410, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.13 15:13:02.138, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.13 15:13:02.654, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 15:13:03.570, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 15:13:04.188, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 15:13:16.634, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 15:13:17.553, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.13 15:13:23.995, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.13 16:23:06.892, SYS,  SEVERE,     45/pmon, Notfall Modus erkannt.
+WCCILpmon    (1), 2026.10.13 17:13:01.473, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 17:13:01.496, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 17:13:02.099, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 17:13:02.158, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 17:13:03.413, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.13 17:13:03.515, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 17:13:03.517, SYS,  INFO,       17/pmon, Stoppe Manager node(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 17:13:03.540, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 17:13:33.583, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 17:13:33.590, SYS,  INFO,       17/pmon, Stoppe Manager node(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.13 17:13:33.610, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAui(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 17:13:33.911, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 17:13:36.005, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.13 17:13:36.709, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.13 17:13:36.817, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.13 17:13:37.233, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.13 17:13:38.043, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.13 17:13:39.861, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.13 17:13:42.779, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.13 17:13:43.183, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 17:13:44.096, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 17:13:44.807, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 17:13:46.131, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 17:13:47.969, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.13 17:14:03.031, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.13 17:45:52.624, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 17:45:54.225, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 21:21:29.652, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 21:21:31.104, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILevent(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 21:21:31.209, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.13 21:21:31.388, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 21:21:31.688, SYS,  WARNING,    39/pmon, Manager WCCILevent(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.13 21:21:31.790, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 21:21:31.922, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.13 21:21:33.675, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 21:21:33.764, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.13 21:21:35.068, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 21:21:35.130, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 21:21:37.127, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.13 21:21:37.447, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.13 21:21:41.785, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #2
+WCCILpmon    (1), 2026.10.13 21:21:41.858, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 21:21:44.477, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #3
+WCCILpmon    (1), 2026.10.13 21:21:44.521, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.13 21:21:45.933, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) startet zu häufig - kein weiterer Startversuch mehr
+WCCILpmon    (1), 2026.10.14 09:51:34.747, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILdataSQLite(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 09:51:36.861, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAnextgenarch(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 09:51:37.540, SYS,  WARNING,    39/pmon, Manager WCCILdataSQLite(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.14 09:51:42.541, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.14 09:51:42.649, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:51:42.652, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:51:42.739, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:51:42.815, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:51:42.953, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:51:43.218, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:52:04.824, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAui(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 09:52:12.671, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 09:52:12.683, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 09:52:12.968, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 09:52:13.072, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:52:15.134, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 09:52:16.058, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.14 09:52:16.172, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.14 09:52:17.804, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.14 09:52:21.817, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.14 09:52:24.102, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.14 09:52:29.847, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.14 09:52:30.639, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.14 09:52:32.262, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.14 09:52:33.193, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.14 09:52:34.310, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.14 09:52:35.741, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.14 09:52:54.965, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.14 10:26:10.645, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 10:26:11.469, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.14 11:52:25.169, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 11:52:25.309, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.14 11:52:30.843, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 11:52:30.867, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.14 11:52:31.369, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 11:52:31.410, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.14 11:52:31.712, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 11:52:31.736, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.14 11:52:33.017, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOAnextgenarch(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 11:52:33.037, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.14 11:52:33.438, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.14 11:52:33.540, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAui(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:52:33.542, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:52:33.547, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:52:33.560, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:52:33.562, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:52:33.567, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:53:03.624, SYS,  INFO,       17/pmon, Stoppe Manager node(3) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 11:53:03.727, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:53:05.751, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 11:53:06.774, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.14 11:53:06.889, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.14 11:53:07.399, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.14 11:53:08.223, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.14 11:53:11.262, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.14 11:53:11.676, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.14 11:53:12.294, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.14 11:53:13.386, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.14 11:53:14.000, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.14 11:53:14.930, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.14 11:53:17.275, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa
+WCCILpmon    (1), 2026.10.14 11:53:44.454, SYS,  INFO,        9/pmon, Das Projekt wurde gestartet und läuft. Gehe in den Überwachungsmodus
+WCCILpmon    (1), 2026.10.14 11:53:58.632, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 11:54:06.770, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.14 16:44:49.144, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCILevent(0) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 16:44:49.622, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOActrl(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 16:44:50.183, SYS,  WARNING,    39/pmon, Manager WCCILevent(0) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.14 16:44:50.587, SYS,  INFO,       11/pmon, Gestoppten Manager WCCILsim(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 16:44:51.366, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.14 16:44:56.053, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(2) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 16:44:56.224, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.14 16:44:57.234, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOActrl(3) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 16:44:57.284, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.14 16:44:57.990, SYS,  INFO,       11/pmon, Gestoppten Manager node(4) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 16:45:00.058, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.14 16:45:01.868, SYS,  INFO,       11/pmon, Gestoppten Manager WCCOAnextgenarch(1) gefunden - starte ihn erneut #1
+WCCILpmon    (1), 2026.10.14 16:45:02.042, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.14 16:45:03.910, SYS,  WARNING,    39/pmon, Manager WCCOActrl(1) blockiert nun nicht mehr.
+WCCILpmon    (1), 2026.10.14 16:45:04.113, SYS,  SEVERE,     10/pmon, Der zentrale Server Manager WCCILevent(0) stoppte! Projekt wird neu gestartet
+WCCILpmon    (1), 2026.10.14 16:45:04.145, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 16:45:04.147, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 16:45:04.149, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 16:45:04.156, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 16:45:04.167, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 16:45:04.169, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 18:29:29.619, SYS,  INFO,       17/pmon, Stoppe Manager node(4) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 18:29:30.893, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(3) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 18:29:31.944, SYS,  INFO,       17/pmon, Stoppe Manager WCCOActrl(2) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 18:29:31.980, SYS,  INFO,       17/pmon, Stoppe Manager WCCILsim(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 18:29:32.101, SYS,  INFO,       17/pmon, Stoppe Manager WCCOAnextgenarch(1) mit Signal SIGKILL
+WCCILpmon    (1), 2026.10.14 18:29:32.201, SYS,  WARNING,    36/pmon, Blockierenden Manager WCCOAnextgenarch(1) gefunden. Kein Lebenszeichen seit 30 Sekunden.
+WCCILpmon    (1), 2026.10.14 18:29:32.399, SYS,  INFO,       17/pmon, Stoppe Manager WCCILdataSQLite(0) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 18:29:33.607, SYS,  INFO,       17/pmon, Stoppe Manager WCCILproxy(1) mit Signal SIGTERM
+WCCILpmon    (1), 2026.10.14 18:29:33.823, SYS,  INFO,       14/pmon, Projekt wurde komplett gestoppt - es wird neu gestartet
+WCCILpmon    (1), 2026.10.14 18:29:34.152, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILdataSQLite.exe" -PROJ "CompressorDemoHMI" -pmonIndex 1 
+WCCILpmon    (1), 2026.10.14 18:29:35.114, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAnextgenarch.exe" -PROJ "CompressorDemoHMI" -pmonIndex 2 
+WCCILpmon    (1), 2026.10.14 18:29:39.162, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILevent.exe" -PROJ "CompressorDemoHMI" -pmonIndex 3 
+WCCILpmon    (1), 2026.10.14 18:29:42.918, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILproxy.exe" -PROJ "CompressorDemoHMI" -pmonIndex 4 
+WCCILpmon    (1), 2026.10.14 18:29:43.534, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.10.14 18:29:44.252, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCILsim.exe" -PROJ "CompressorDemoHMI" -pmonIndex 6 
+WCCILpmon    (1), 2026.10.14 18:29:48.663, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 7 webclient_http.ctl -num 2
+WCCILpmon    (1), 2026.10.14 18:29:49.886, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOActrl.exe" -PROJ "CompressorDemoHMI" -pmonIndex 8 dashboard.ctl
+WCCILpmon    (1), 2026.10.14 18:29:51.924, SYS,  INFO,        1, Manager Start, "node.exe" "C:\Program Files\Siemens\WinCC_OA\3.21\javascript/winccoa-manager/lib/bootstrap.js" -PROJ "CompressorDemoHMI" -pmonIndex 9 system-dashboard/index.js
+WCCILpmon    (1), 2026.10.14 18:29:54.696, SYS,  INFO,        1, Manager Start, "C:\Program Files\Siemens\WinCC_OA\3.21\bin\WCCOAui.exe" -PROJ "CompressorDemoHMI" -pmonIndex 10 -m gedi -ssa

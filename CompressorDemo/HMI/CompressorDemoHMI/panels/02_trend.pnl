@@ -1,0 +1,202 @@
+V 14
+1
+LANG:10034 0 
+PANEL,-1 -1 1080 626 N "_3DFace" 0
+E E E E E 1 -1 -1 0  -12 -14
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "92.6073"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+0
+13 1
+"PUSH_BUTTON1"
+""
+1 35 218.0143678160919 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+0 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 210.0833333333333 243 257.0833333333333
+
+T 
+1
+LANG:10034 9 dashboard
+E E E E
+13 2
+"PUSH_BUTTON2"
+""
+1 35 264.4310344827585 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+1 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 256.4999999999999 243 303.4999999999999
+
+T 
+1
+LANG:10034 5 trend
+E E E E
+13 3
+"PUSH_BUTTON3"
+""
+1 35 319.0143678160919 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+2 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 311.0833333333333 243 358.0833333333333
+
+T 
+1
+LANG:10034 6 alarms
+E E E E
+13 4
+"PUSH_BUTTON4"
+""
+1 35 379.4310344827586 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+3 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 371.5 243 418.5
+
+T 
+1
+LANG:10034 7 test io
+E E E E
+13 5
+"PUSH_BUTTON5"
+""
+1 35 554.4310344827586 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+4 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 546.5 243 593.5
+
+T 
+1
+LANG:10034 10 simulation
+E E E E
+13 6
+"PUSH_BUTTON6"
+""
+1 35 59.91666666666669 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+5 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 51.98563218390808 243 98.98563218390808
+
+T 
+1
+LANG:10034 6 manual
+E E E E
+13 7
+"PUSH_BUTTON7"
+""
+1 35 118.8477011494253 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+6 0 0 0 0 0
+E E E
+8
+1
+LANG:10034 0 
+
+1
+"layoutAlignment" "AlignNone"
+1
+LANG:10034 43 Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+0  33 110.9166666666667 243 157.9166666666667
+
+T 
+1
+LANG:10034 4 auto
+E E E E
+6 8
+"RECTANGLE5"
+""
+1 280 0 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+1
+LANG:10034 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 1.148280423280423 8 -13.50000000000006 1 E 280 0 -20 630
+0
+LAYER, 1 
+0
+0
+LAYER, 2 
+0
+0
+LAYER, 3 
+0
+0
+LAYER, 4 
+0
+0
+LAYER, 5 
+0
+0
+LAYER, 6 
+0
+0
+LAYER, 7 
+0
+0
+0

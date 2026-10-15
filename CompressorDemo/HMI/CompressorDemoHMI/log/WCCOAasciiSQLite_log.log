@@ -1,0 +1,13 @@
+WCCOAasciiSQLite(0), 2026.10.12 12:42:16.275, SYS,  INFO,        1, Manager Start, PROJ, CompressorDemoHMI, V 3.21 - 3.21.6 platform Windows AMD64 linked at Sep 29 2026 21:29:48 (a2932d3f879907fd6494d322f20375eb1a80f6b4)
+WCCOAasciiSQLite(0), 2026.10.12 12:42:16.283, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ alexhp:4897
+WCCOAasciiSQLite(0), 2026.10.12 12:42:16.363, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ alexhp (::1)
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.520, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.520, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ alexhp:4998
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.567, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ alexhp (::1)
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.705, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.706, SYS,  INFO,      103, User names/passwords initialized
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.743, SYS,  INFO,      181, Closing connection to (SYS: 0 Data -num 0 CONN: 1)
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.743, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.745, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.745, SYS,  INFO,       39, Connection lost, MAN: (SYS: 0 Data -num 0 CONN: 1), Connection closed
+WCCOAasciiSQLite(1), 2026.10.12 12:42:16.745, SYS,  INFO,        2, Manager Stop
